@@ -1,21 +1,21 @@
 {
-    "name": "HR Attendance Base",
-    "version": "0.1",
-    "author": "Mussder",
-    "website": "http://mussder.com/",
-    "category": "Human Resources",
-    "complexity": "",
+    "name": "Zero Attendance Base",
+    'version': '12.0.1',
+    'author': "Zero Systems",
+    'company': 'Zero for Information Systems',
+    'website': "https://www.erpzero.com",
+    'email': "sales@erpzero.com",
+    'category': 'Human Resources',
     "description": """""",
-    "depends": [
+    'depends': [
         'hr',
         'hr_public_holidays',
         'hr_attendance',
-        'hr_contract_work_hours',
+        'zero_contract_work_hours',
     ],
     "demo": [
     ],
     "data": [
-        # Order of files matters, be careful.
     ],
     'images': ['static/description/logo.PNG'],
     "installable": True,
