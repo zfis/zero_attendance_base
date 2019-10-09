@@ -6,7 +6,7 @@
     'website':'https://www.erpzero.com',
     'email': 'sales@erpzero.com',
     'category':'Human Resources',
-    "description": """this addon is the base addon for Zero Systems Hr addons,test on odoo community and enterprise""",
+    "description": """this addon is the base addon for Zero Systems Hr addons.test on odoo community and enterprise""",
     'depends': [
         'hr',
         'hr_holidays_public',
