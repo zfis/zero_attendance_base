@@ -1,7 +1,4 @@
-import logging
-import pprint
 from datetime import datetime
-
 from dateutil import rrule
 from odoo import models, fields, _, exceptions, api
 from odoo.tools import DEFAULT_SERVER_DATE_FORMAT
