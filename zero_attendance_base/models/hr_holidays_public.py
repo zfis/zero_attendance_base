@@ -2,7 +2,7 @@ from pprint import pformat
 import logging
 from odoo import fields
 from datetime import datetime, time
-from odoo import api
+from odoo import models, fields, _, exceptions, api
 from odoo import models
 
 LOGGER = logging.getLogger(__name__)
