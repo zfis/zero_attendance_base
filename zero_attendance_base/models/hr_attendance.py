@@ -6,8 +6,6 @@ from dateutil import rrule
 from odoo import models, fields, _, exceptions, api
 from odoo.tools import DEFAULT_SERVER_DATE_FORMAT
 
-from zero_attendance_base.classes.analyzed_period import P_VE, LEAVE_COVERED, N_VE
-from zero_attendance_base.classes.analyzed_interval import AnalyzedInterval
 from functools import reduce
 
 LOGGER = logging.getLogger(__name__)
