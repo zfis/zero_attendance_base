@@ -1,6 +1,5 @@
+from pprint import pformat
 import logging
-import pprint
-
 from odoo import models, fields, api
 
 LOGGER = logging.getLogger(__name__)
