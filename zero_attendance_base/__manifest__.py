@@ -17,6 +17,7 @@
     "data": [
         # Order of files matters, be careful.
     ],
+    'images': ['static/description/logo.PNG'],
     "installable": True,
     "auto_install": False,
     "application": True,
