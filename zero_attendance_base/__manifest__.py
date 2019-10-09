@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 {
     'name': 'Zero Attendance Base',
     'version': '12.1.0',
