@@ -1,6 +1,8 @@
 from datetime import datetime, time
 from dateutil import rrule
 from odoo import models, fields, _, exceptions, api
+from pprint import pformat
+import logging
 
 LOGGER = logging.getLogger(__name__)
 
