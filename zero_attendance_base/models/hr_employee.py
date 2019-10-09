@@ -3,7 +3,7 @@ import pprint
 from datetime import datetime, time
 
 from dateutil import rrule
-from openerp import models, fields, _, exceptions, api
+from odoo import models, fields, _, exceptions, api
 
 LOGGER = logging.getLogger(__name__)
 
