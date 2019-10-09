@@ -30,21 +30,21 @@ class Attendance(models.Model):
 
 
         :example 1: get attendance dates with total hours of each day:
-        >>> attendance_model.get_attendance_dates('2015-07-01', '2015-07-31')
-        [(datetime.date(2015, 7, 1), 3.5, datetime.datetime(2015, 7, 1, 8, 21, 53),
-          datetime.datetime(2015, 7, 1, 11, 51, 53)),
-         (datetime.date(2015, 7, 2), 7.1, datetime.datetime(2015, 7, 2, 12, 47, 53),
-          datetime.datetime(2015, 7, 2, 19, 53, 53)),
-         (datetime.date(2015, 7, 16), 5.4, datetime.datetime(2015, 7, 16, 7, 10, 53),
-          datetime.datetime(2015, 7, 16, 12, 34, 53)),
-         (datetime.date(2015, 7, 16), 6.4, datetime.datetime(2015, 7, 16, 14, 10, 53),
-          datetime.datetime(2015, 7, 16, 20, 34, 53))]
+        >>> attendance_model.get_attendance_dates('2019-01-01', '2019-01-31')
+        [(datetime.date(2019, 7, 1), 3.5, datetime.datetime(2019, 7, 1, 8, 21, 53),
+          datetime.datetime(2019, 7, 1, 11, 51, 53)),
+         (datetime.date(2019, 7, 2), 7.1, datetime.datetime(2019, 7, 2, 12, 47, 53),
+          datetime.datetime(2019, 7, 2, 19, 53, 53)),
+         (datetime.date(2019, 7, 16), 5.4, datetime.datetime(2019, 7, 16, 7, 10, 53),
+          datetime.datetime(2019, 7, 16, 12, 34, 53)),
+         (datetime.date(2019, 7, 16), 6.4, datetime.datetime(2019, 7, 16, 14, 10, 53),
+          datetime.datetime(2019, 7, 16, 20, 34, 53))]
 
         :example 2: get total worked intervals (shifts):
-        >>> days = len(attendance_model.get_attendance_dates('2015-07-01', '2015-07-31'))
+        >>> days = len(attendance_model.get_attendance_dates('2019-01-01', '2019-01-31'))
 
         :example 3: get total worked hours:
-        >>> hours = sum([x[1] for x in attendance_model.get_attendance_dates('2015-07-01', '2015-07-31')])
+        >>> hours = sum([x[1] for x in attendance_model.get_attendance_dates('2019-01-01', '2019-01-31')])
         """
         if isinstance(date_from, str):
             date_from_str = date_from
