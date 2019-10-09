@@ -9,7 +9,7 @@
     "description": """""",
     'depends': [
         'hr',
-        'zero_hr_public_holidays',
+        'hr_holidays_public',
         'hr_attendance',
         'zero_contract_work_hours',
     ],
