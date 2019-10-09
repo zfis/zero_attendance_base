@@ -9,6 +9,7 @@
     'company': 'Zero for Information Systems',
     'website': "https://www.erpzero.com",
     'email': "sales@erpzero.com",
+    'license': 'AGPL-3',
     'data': [
     ],
     'images': ['static/description/logo.PNG'],
