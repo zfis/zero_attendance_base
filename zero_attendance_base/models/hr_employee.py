@@ -1,7 +1,4 @@
-import logging
-import pprint
 from datetime import datetime, time
-
 from dateutil import rrule
 from odoo import models, fields, _, exceptions, api
 
