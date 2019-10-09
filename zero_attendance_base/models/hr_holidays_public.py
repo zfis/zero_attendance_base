@@ -1,10 +1,9 @@
 from pprint import pformat
-
+import logging
 from odoo import fields
 from datetime import datetime, time
 from odoo import api
 from odoo import models
-import logging
 
 LOGGER = logging.getLogger(__name__)
 
