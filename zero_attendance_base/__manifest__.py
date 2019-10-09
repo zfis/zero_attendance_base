@@ -1,11 +1,11 @@
 {
-    "name": "Zero Attendance Base",
-    'version': '12.0.1',
-    'author': "Zero Systems",
-    'company': 'Zero for Information Systems',
-    'website': "https://www.erpzero.com",
-    'email': "sales@erpzero.com",
-    'category': 'Human Resources',
+    'name':'Zero Attendance Base',
+    'version':'12.0.1',
+    'author':'Zero Systems',
+    'company':'Zero for Information Systems',
+    'website':'https://www.erpzero.com',
+    'email': 'sales@erpzero.com',
+    'category':'Human Resources',
     "description": """""",
     'depends': [
         'hr',
