@@ -6,7 +6,7 @@
     'website':'https://www.erpzero.com',
     'email': 'sales@erpzero.com',
     'category':'Human Resources',
-    "description": """""",
+    "description": """this addon is the base addon for Zero Systems Hr addons""",
     'depends': [
         'hr',
         'hr_holidays_public',
