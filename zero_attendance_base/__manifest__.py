@@ -8,7 +8,6 @@
     'category':'Human Resources',
     "description": """""",
     'depends': [
-        'hr',
         'hr_holidays_public',
         'hr_attendance',
         'zero_contract_work_hours',
