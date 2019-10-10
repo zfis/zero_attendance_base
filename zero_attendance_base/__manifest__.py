@@ -20,5 +20,5 @@
     'images': ['static/description/logo.PNG'],
     'installable': True,
     'auto_install': False,
-    'application': True,
+    'application': False,
 }
