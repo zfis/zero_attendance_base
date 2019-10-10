@@ -3,7 +3,7 @@
 {
     'name': 'Zero Attendance Base',
     'version': '12.1.0',
-    'license': 'LGPL Version 3',
+    'license': 'LGPL-3',
     "summary": "base hr addon for Zero Systems HR",
     'description': """this addon is the base addon for Zero Systems Hr addons.test on odoo community and enterprise-Support English and Arabic interface""",
     'depends': ['hr_holidays_public', 'hr_attendance', 'zero_contract_work_hours'],
