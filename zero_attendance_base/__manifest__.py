@@ -3,7 +3,11 @@
     'name': 'Zero Attendance Base',
     'version': '12.1.0',
     "summary": "base hr addon for Zero Systems HR",
-    'description': """this addon is the base addon for Zero Systems Hr addons.tested on odoo community and enterprise-Support English and Arabic interface""",
+    'description': """--Must Install hr_holidays_public before installing this addon---
+    
+    this addon is the base addon for Zero Systems Hr addons.
+    
+    tested on odoo community and enterprise-Support English and Arabic interface""",
     'depends': ['hr_attendance','zero_contract_work_hours'],
     'category': 'Human Resources',
     'author': 'Zero Systems',
