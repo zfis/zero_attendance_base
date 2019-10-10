@@ -3,7 +3,8 @@
     'name': 'Zero Attendance Base',
     'version': '12.1.0',
     "summary": "base hr addon for Zero Systems HR",
-    'description': """--Must Install hr_holidays_public before installing this addon---
+    'description': """--((Must Install hr_holidays_public  from https://apps.odoo.com/apps/modules/12.0/hr_holidays_public/))
+    before installing this addon---
     
     this addon is the base addon for Zero Systems Hr addons.
     
