@@ -10,7 +10,7 @@
     
     tested on odoo community and enterprise-Support English and Arabic interface""",
     'depends': ['hr_attendance','zero_contract_work_hours'],
-    'category': 'Human Resources',
+    'category': "Human Resources",
     'author': 'Zero Systems',
     'company': 'Zero for Information Systems',
     'website': "https://www.erpzero.com",
