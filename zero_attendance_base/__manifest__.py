@@ -12,11 +12,11 @@
     
     tested on odoo community and enterprise-Support English and Arabic interface""",
     'depends': ['hr_attendance','zero_contract_work_hours'],
-    'category': 'Human Resources',
     'author': 'Zero Systems',
     'company': 'Zero for Information Systems',
     'website': "https://www.erpzero.com",
     'email': "sales@erpzero.com",
+    'category': "Human Resources",
     'data': [
     ],
     'images': ['static/description/logo.PNG'],
